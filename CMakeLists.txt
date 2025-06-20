@@ -3,5 +3,8 @@ project(GraphTool)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GraphTool
-    main.cpp)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+
+file(GLOB SOURCES "${PROJECT_SOURCE_DIR}/src/*.cpp")
+
+add_executable(GraphTool ${SOURCES})

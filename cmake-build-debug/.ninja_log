@@ -1,3 +1,5 @@
 # ninja log v6
 2	192	7721242736196493	CMakeFiles/GraphTool.dir/main.cpp.obj	3f6c631f69635f40
-194	266	7721242738117700	GraphTool.exe	63e040acc1a12f2e
+14	203	7721273997163483	CMakeFiles/GraphTool.dir/src/main.cpp.obj	cf87f8248a7c4303
+204	257	7721273999060103	GraphTool.exe	fe9781e93c663ccd
+3	211	7721274134414614	build.ninja	6187e9ec54ed6d7b
