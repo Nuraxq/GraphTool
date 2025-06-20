@@ -7,4 +7,10 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 file(GLOB SOURCES "${PROJECT_SOURCE_DIR}/src/*.cpp")
 
-add_executable(GraphTool ${SOURCES})
+add_executable(GraphTool ${SOURCES}
+        src/IGraph.cpp
+        include/IGraph.h
+        src/Edge.cpp
+        include/Edge.h
+        src/Vertex.cpp
+        include/Vertex.h)

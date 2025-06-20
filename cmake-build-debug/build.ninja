@@ -49,6 +49,27 @@ cmake_ninja_workdir = C$:/Users/nikla/CodingProjekte/GraphTool/cmake-build-debug
 
 build cmake_object_order_depends_target_GraphTool: phony || .
 
+build CMakeFiles/GraphTool.dir/src/Edge.cpp.obj: CXX_COMPILER__GraphTool_unscanned_Debug C$:/Users/nikla/CodingProjekte/GraphTool/src/Edge.cpp || cmake_object_order_depends_target_GraphTool
+  DEP_FILE = CMakeFiles\GraphTool.dir\src\Edge.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/nikla/CodingProjekte/GraphTool/include
+  OBJECT_DIR = CMakeFiles\GraphTool.dir
+  OBJECT_FILE_DIR = CMakeFiles\GraphTool.dir\src
+
+build CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj: CXX_COMPILER__GraphTool_unscanned_Debug C$:/Users/nikla/CodingProjekte/GraphTool/src/IGraph.cpp || cmake_object_order_depends_target_GraphTool
+  DEP_FILE = CMakeFiles\GraphTool.dir\src\IGraph.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/nikla/CodingProjekte/GraphTool/include
+  OBJECT_DIR = CMakeFiles\GraphTool.dir
+  OBJECT_FILE_DIR = CMakeFiles\GraphTool.dir\src
+
+build CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj: CXX_COMPILER__GraphTool_unscanned_Debug C$:/Users/nikla/CodingProjekte/GraphTool/src/Vertex.cpp || cmake_object_order_depends_target_GraphTool
+  DEP_FILE = CMakeFiles\GraphTool.dir\src\Vertex.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/nikla/CodingProjekte/GraphTool/include
+  OBJECT_DIR = CMakeFiles\GraphTool.dir
+  OBJECT_FILE_DIR = CMakeFiles\GraphTool.dir\src
+
 build CMakeFiles/GraphTool.dir/src/main.cpp.obj: CXX_COMPILER__GraphTool_unscanned_Debug C$:/Users/nikla/CodingProjekte/GraphTool/src/main.cpp || cmake_object_order_depends_target_GraphTool
   DEP_FILE = CMakeFiles\GraphTool.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
@@ -64,7 +85,7 @@ build CMakeFiles/GraphTool.dir/src/main.cpp.obj: CXX_COMPILER__GraphTool_unscann
 #############################################
 # Link the executable GraphTool.exe
 
-build GraphTool.exe: CXX_EXECUTABLE_LINKER__GraphTool_Debug CMakeFiles/GraphTool.dir/src/main.cpp.obj
+build GraphTool.exe: CXX_EXECUTABLE_LINKER__GraphTool_Debug CMakeFiles/GraphTool.dir/src/Edge.cpp.obj CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj CMakeFiles/GraphTool.dir/src/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GraphTool.dir
