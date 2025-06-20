@@ -1,2 +1,10 @@
+#include <iostream>
+
 // Mein GraphTool
-// neue versionS
+// neue version
+
+
+int main()
+{
+    std::cout << "Test";
+}

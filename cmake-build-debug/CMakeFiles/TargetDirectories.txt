@@ -1,0 +1,3 @@
+C:/Users/nikla/CodingProjekte/GraphTool/cmake-build-debug/CMakeFiles/GraphTool.dir
+C:/Users/nikla/CodingProjekte/GraphTool/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nikla/CodingProjekte/GraphTool/cmake-build-debug/CMakeFiles/rebuild_cache.dir
