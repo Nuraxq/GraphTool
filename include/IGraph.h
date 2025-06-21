@@ -15,6 +15,7 @@ public:
     void create_vertex(int id);
     void create_edge(int id1, int id2);
     Vertex* find_vertex(int id) const;
+    void remove_edge(int id1, int id2);
 };
 
 #endif //IGRAPH_H
