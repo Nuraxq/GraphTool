@@ -2,8 +2,10 @@
 #ifndef EDGE_H
 #define EDGE_H
 #include "Vertex.h"
-#include <memory>
-#include <iostream>
+
+
+
+
 class Vertex;
 
 class Edge
