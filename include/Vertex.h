@@ -14,6 +14,7 @@ class Vertex
     std::vector<Edge*> isTargetV_;
     bool tempFlag = false;
 public:
+    std::vector<Vertex*> get_neighbors() const;
     ~Vertex();
     explicit Vertex(const int id)
         : id_(id){}
