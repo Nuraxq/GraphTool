@@ -152,6 +152,30 @@ src/Edge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphTool.dir\build.make CMakeFiles/GraphTool.dir/src/Edge.cpp.s
 .PHONY : src/Edge.cpp.s
 
+src/Graph_IO.obj: src/Graph_IO.cpp.obj
+.PHONY : src/Graph_IO.obj
+
+# target to build an object file
+src/Graph_IO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphTool.dir\build.make CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj
+.PHONY : src/Graph_IO.cpp.obj
+
+src/Graph_IO.i: src/Graph_IO.cpp.i
+.PHONY : src/Graph_IO.i
+
+# target to preprocess a source file
+src/Graph_IO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphTool.dir\build.make CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.i
+.PHONY : src/Graph_IO.cpp.i
+
+src/Graph_IO.s: src/Graph_IO.cpp.s
+.PHONY : src/Graph_IO.s
+
+# target to generate assembly for a file
+src/Graph_IO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphTool.dir\build.make CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.s
+.PHONY : src/Graph_IO.cpp.s
+
 src/IGraph.obj: src/IGraph.cpp.obj
 .PHONY : src/IGraph.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... src/Edge.obj
 	@echo ... src/Edge.i
 	@echo ... src/Edge.s
+	@echo ... src/Graph_IO.obj
+	@echo ... src/Graph_IO.i
+	@echo ... src/Graph_IO.s
 	@echo ... src/IGraph.obj
 	@echo ... src/IGraph.i
 	@echo ... src/IGraph.s

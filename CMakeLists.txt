@@ -13,4 +13,6 @@ add_executable(GraphTool ${SOURCES}
         src/Edge.cpp
         include/Edge.h
         src/Vertex.cpp
+        src/Graph_IO.cpp
+        include/Graph_IO.h
         include/Vertex.h)

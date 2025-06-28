@@ -83,11 +83,26 @@ CMakeFiles/GraphTool.dir/src/Edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphTool.dir/src/Edge.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projekte\GraphTool\src\Edge.cpp -o CMakeFiles\GraphTool.dir\src\Edge.cpp.s
 
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj: CMakeFiles/GraphTool.dir/flags.make
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj: CMakeFiles/GraphTool.dir/includes_CXX.rsp
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj: D:/Projekte/GraphTool/src/Graph_IO.cpp
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj: CMakeFiles/GraphTool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj -MF CMakeFiles\GraphTool.dir\src\Graph_IO.cpp.obj.d -o CMakeFiles\GraphTool.dir\src\Graph_IO.cpp.obj -c D:\Projekte\GraphTool\src\Graph_IO.cpp
+
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projekte\GraphTool\src\Graph_IO.cpp > CMakeFiles\GraphTool.dir\src\Graph_IO.cpp.i
+
+CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Projekte\GraphTool\src\Graph_IO.cpp -o CMakeFiles\GraphTool.dir\src\Graph_IO.cpp.s
+
 CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj: CMakeFiles/GraphTool.dir/flags.make
 CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj: CMakeFiles/GraphTool.dir/includes_CXX.rsp
 CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj: D:/Projekte/GraphTool/src/IGraph.cpp
 CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj: CMakeFiles/GraphTool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj -MF CMakeFiles\GraphTool.dir\src\IGraph.cpp.obj.d -o CMakeFiles\GraphTool.dir\src\IGraph.cpp.obj -c D:\Projekte\GraphTool\src\IGraph.cpp
 
 CMakeFiles/GraphTool.dir/src/IGraph.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj: CMakeFiles/GraphTool.dir/flags.make
 CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj: CMakeFiles/GraphTool.dir/includes_CXX.rsp
 CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj: D:/Projekte/GraphTool/src/Vertex.cpp
 CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj: CMakeFiles/GraphTool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj -MF CMakeFiles\GraphTool.dir\src\Vertex.cpp.obj.d -o CMakeFiles\GraphTool.dir\src\Vertex.cpp.obj -c D:\Projekte\GraphTool\src\Vertex.cpp
 
 CMakeFiles/GraphTool.dir/src/Vertex.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/GraphTool.dir/src/main.cpp.obj: CMakeFiles/GraphTool.dir/flags.make
 CMakeFiles/GraphTool.dir/src/main.cpp.obj: CMakeFiles/GraphTool.dir/includes_CXX.rsp
 CMakeFiles/GraphTool.dir/src/main.cpp.obj: D:/Projekte/GraphTool/src/main.cpp
 CMakeFiles/GraphTool.dir/src/main.cpp.obj: CMakeFiles/GraphTool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GraphTool.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GraphTool.dir/src/main.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GraphTool.dir/src/main.cpp.obj -MF CMakeFiles\GraphTool.dir\src\main.cpp.obj.d -o CMakeFiles\GraphTool.dir\src\main.cpp.obj -c D:\Projekte\GraphTool\src\main.cpp
 
 CMakeFiles/GraphTool.dir/src/main.cpp.i: cmake_force
@@ -131,6 +146,7 @@ CMakeFiles/GraphTool.dir/src/main.cpp.s: cmake_force
 # Object files for target GraphTool
 GraphTool_OBJECTS = \
 "CMakeFiles/GraphTool.dir/src/Edge.cpp.obj" \
+"CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj" \
 "CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj" \
 "CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj" \
 "CMakeFiles/GraphTool.dir/src/main.cpp.obj"
@@ -139,6 +155,7 @@ GraphTool_OBJECTS = \
 GraphTool_EXTERNAL_OBJECTS =
 
 GraphTool.exe: CMakeFiles/GraphTool.dir/src/Edge.cpp.obj
+GraphTool.exe: CMakeFiles/GraphTool.dir/src/Graph_IO.cpp.obj
 GraphTool.exe: CMakeFiles/GraphTool.dir/src/IGraph.cpp.obj
 GraphTool.exe: CMakeFiles/GraphTool.dir/src/Vertex.cpp.obj
 GraphTool.exe: CMakeFiles/GraphTool.dir/src/main.cpp.obj
@@ -146,7 +163,7 @@ GraphTool.exe: CMakeFiles/GraphTool.dir/build.make
 GraphTool.exe: CMakeFiles/GraphTool.dir/linkLibs.rsp
 GraphTool.exe: CMakeFiles/GraphTool.dir/objects1.rsp
 GraphTool.exe: CMakeFiles/GraphTool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GraphTool.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Projekte\GraphTool\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GraphTool.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GraphTool.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
