@@ -12,7 +12,7 @@ class Edge
 {
     Vertex* from_;
     Vertex* to_;
-    int weight_;
+    int weight_ = 1;;
 public:
     ~Edge();
     Edge() = default;

@@ -86,15 +86,22 @@ bool IGraph::has_edge(const int from,const int to) const
 // Gibt einmal den Graph und alle Kanten aus
 void IGraph::print() const
 {
+    std::cout << "is Weighted : " << isWeighted << "\n";
+    std::cout << "is Directed : " << isDirected << "\n";
     std::cout << "Vertices: \n";
     for (const auto& v : vertices_)
     {
         std::cout << "ID : " << v->id() << "\n";
     }
-    std:: cout << "Edges: \n";
+    std::cout << "Edges: \n";
     for (const auto& e : edges_)
     {
-        std::cout << e->from()->id() << " -> " << e->to()->id() << "\n";
+        std::cout << e->from()->id() << " -> " << e->to()->id();
+        if (isWeighted)
+        {
+            std::cout << " | Weight: " << e->weight();
+        }
+        std::cout <<"\n";
     }
 }
 // Erstellt Knoten
