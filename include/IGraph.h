@@ -28,6 +28,12 @@ public:
     void remove_edge(const Edge* e);
     void remove_vertex(int id);
     void print() const;
+    bool is_Directed() const {return isDirected;}
+    bool is_Weighted() const {return isWeighted;}
+    std::vector<Vertex*> vertices() const;
+    std::vector<Edge*> edges() const;
+    void set_Directed(bool d){isDirected = d;}
+    void set_Weighted(bool w){isWeighted = w;}
 };
 
 #endif //IGRAPH_H

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include "IGraph.h"
 #include "Graph_IO.h"
 
@@ -7,14 +8,20 @@
 using namespace std;
 int main()
 {
-    IGraph Graph(false);
-    Graph.create_vertex(1);
-    Graph.create_vertex(2);
-    Graph.create_edge(1,2,10);
-    Graph.create_vertex(3);
-    Graph.create_edge(1,3,5);
-    std::cout << Graph.find_vertex(1);
+    ifstream is("GraphFile");
+
+    IGraph Graph;
+    try
+    {
+        is >> Graph;
+    }
+    catch (read_error&e)
+    {
+        std::cout << e.what() << endl;
+    }
+
     Graph.print();
-    Graph.remove_vertex(1);
+    ofstream os("GraphFile", ios_base::trunc);
+    os << Graph;
     return 0;
 }

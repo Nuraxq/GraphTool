@@ -146,6 +146,28 @@ void IGraph::create_edge(const int from,const int to, const int weight)
         }
     }
 }
+
+std::vector<Vertex*> IGraph::vertices() const
+{
+    std::vector<Vertex*> v;
+    for (auto& vertex : vertices_)
+    {
+        v.push_back(vertex.get());
+    }
+    return v;
+}
+
+std::vector<Edge*> IGraph::edges() const
+{
+    std::vector<Edge*> e;
+    for (auto& edges : edges_)
+    {
+        e.push_back(edges.get());
+    }
+    return e;
+}
+
+
 // Löscht kante anhand von Id's der Inzidenten Knoten
 void IGraph::remove_edge(const int from,const int to)
 {
@@ -167,7 +189,7 @@ void IGraph::remove_edge(const int from,const int to)
 // Gibt alle Nachbarn vom Knoten mit id zurück
 std::vector<Vertex*> IGraph::get_neighbors(const int id) const
 {
-    const auto v = find_vertex(id);
+    const Vertex* v = find_vertex(id);
     std::vector<Vertex*> vec;
     if (!v){return vec;}
 
